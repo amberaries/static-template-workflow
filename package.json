@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/amberaries/static-template-workflow#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "browser-sync": "^2.24.4",
@@ -47,5 +49,11 @@
     "style-sherpa": "^1.0.2",
     "wiredep": "^4.0.0",
     "yargs": "^11.0.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "babel": {
+    "presets": ["env"]
   }
 }

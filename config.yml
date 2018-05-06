@@ -1,0 +1,9 @@
+PORT: 8080
+COMPATIBILITY:
+  - "last 2 versions"
+PATHS:
+  dist: "dist"
+  sass:
+    - "src/sass"
+  javascript:
+    - "src/js"
