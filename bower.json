@@ -1,0 +1,27 @@
+{
+  "name": "static-template-workflow",
+  "description": "Template workflow",
+  "main": "gulpfile.js",
+  "authors": [
+    "Andrew N.Romanov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "bower",
+    "babel",
+    "template"
+  ],
+  "homepage": "https://github.com/amberaries/static-template-workflow",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.2",
+    "fontawesome": "^5.0.12"
+  }
+}
