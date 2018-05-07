@@ -1,11 +1,15 @@
 "use strict";
 
-const gulp = require('gulp');
-const fs = require('fs');
-const yaml = require('js-yaml');
-const yargs = require('yargs');
 
-const $ = require('gulp-load-plugins')();
+import gulp     from 'gulp';
+import plugins  from 'gulp-load-plugins';
+import browser  from 'browser-sync';
+import yaml     from 'js-yaml';
+import fs       from 'fs';
+import yargs    from 'yargs';
+
+const $ = plugins();
+
 const PRODUCTION = !!(yargs.argv.production);
 
 const { COMPATIBILITY, PORT, PATHS } = loadConfig();
